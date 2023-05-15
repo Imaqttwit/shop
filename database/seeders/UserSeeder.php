@@ -25,7 +25,7 @@ class UserSeeder extends Seeder
             'email_verified_at' => Carbon::now(),
             'password' => Hash::make('password'),
             'isAdmin' => 1,
-            'remember_token' => Str::random(10)
+            'remember_token' => Str::random(10),
         ]
     );
     }
